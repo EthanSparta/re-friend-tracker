@@ -138,6 +138,13 @@
                         "icon": "fa-cubes",
                         "color": "yellow",
                         "page": "locationspage"
+                    },
+                    {
+                        "type": "button",
+                        "name": "Group",
+                        "icon": "fa-wrench",
+                        "color": "purple",
+                        "page": "groupspage"
                     }
                 ]
             },
@@ -164,6 +171,33 @@
                         "url": "/friend",
                         "form": {
                             "form": "FriendForm"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "groupspage",
+                "elementList": [
+                    {
+                        "type": "backbutton"
+                    },
+                    {
+                        "type": "newButton",
+                        "name": "NewGroup",
+                        "icon": "fa-wrench",
+                        "color": "purple",
+                        "form": {
+                            "form": "GroupForm"
+                        }
+                    },
+                    {
+                        "type": "list",
+                        "icon": "fa-user",
+                        "color": "purple",
+                        "search": true,
+                        "url": "/group",
+                        "form": {
+                            "form": "GroupForm"
                         }
                     }
                 ]
